@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(120deg, #ffe8d6 0%, #fff7ae 100%);
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+  color: #351901;
+}
+.invitation-container {
+  max-width: 410px;
+  background: #fffdf6ee;
+  margin: 2.5rem auto;
+  border-radius: 20px;
+  box-shadow: 0 6px 26px #d19446a5;
+  padding: 2.5rem 1.3rem 2rem 1.3rem;
+}
+header {
+  text-align: center;
+  margin-bottom: 2.2rem;
+}
+.diya-icon {
+  width: 70px;
+  margin-bottom: 0.7rem;
+}
+header h1 {
+  margin: 0;
+  color: #f49d20;
+  font-size: 2.2rem;
+  letter-spacing: 1.2px;
+}
+header h2 {
+  margin: 0.4rem 0 0.1rem 0;
+  font-size: 1.55rem;
+  color: #965404;
+}
+header h3 {
+  margin: 0.3rem 0 0.7rem 0;
+  font-size: 1.1rem;
+  color: #bc7c17;
+  font-weight: 400;
+}
+.event-details .intro {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 1.1rem;
+  color: #5a3202;
+}
+.details-list {
+  background: #fff7aeaa;
+  border-radius: 8px;
+  padding: 0.9rem 1.1rem;
+  margin: 1rem 0;
+  font-size: 1.05rem;
+}
+.attractions h4 {
+  color: #f49d20;
+  margin-bottom: 0.7rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.attractions ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 0.9rem;
+}
+.attractions ul li {
+  margin-bottom: 0.5rem;
+  font-size: 1.05rem;
+  background: #fff9eb;
+  border-radius: 5px;
+  padding: 0.36rem 0;
+}
+.rsvp-section {
+  margin-top: 1.2rem;
+  text-align: center;
+}
+.rsvp-section h4 {
+  color: #bc7c17;
+  margin-bottom: 0.8rem;
+  font-size: 1.13rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  align-items: center;
+  margin-bottom: 0.7rem;
+}
+form input {
+  padding: 0.7rem 1rem;
+  border-radius: 7px;
+  border: 1px solid #ffe8d6;
+  font-size: 1rem;
+  width: 90%;
+}
+form button {
+  background: #f49d20;
+  color: #fff;
+  font-size: 1.05rem;
+  padding: 0.8rem 0;
+  border: none;
+  border-radius: 8px;
+  width: 95%;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+form button:hover {
+  background: #bc7c17;
+}
+.note {
+  font-size: 0.96rem;
+  color: #5a3202;
+  margin-top: 0.6rem;
+}
+footer {
+  text-align: center;
+  font-size: 0.95rem;
+  margin-top: 2.4rem;
+  color: #934e00;
+  background: #fff7ae;
+  border-radius: 10px;
+  padding: 0.7rem;
+}
+@media (max-width: 540px) {
+  .invitation-container {
+    padding: 1.7rem 0.4rem 1.4rem 0.4rem;
+    margin: 1.3rem 0.1rem;
+    border-radius: 10px;
+  }
+  .diya-icon {
+    width: 44px;
+  }
+}
